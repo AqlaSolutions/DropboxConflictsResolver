@@ -10,6 +10,7 @@ namespace DropboxConflictSolver
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
             var regex = new Regex(@"^(?<name>.*) \((Конфликтующая копия( \d+)? с компьютера|Conflicted Copy( \d+)? from) (?<computer>\S+)( on)? (?<date>[0-9\-\.]{10})( \d+)?\)( ?\(\d+\))?(?<extension>\.\S*)?$");
